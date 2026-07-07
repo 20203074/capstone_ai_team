@@ -1,0 +1,11 @@
+{
+  "name": "capstone-ai-factory-root",
+  "version": "1.0.0",
+  "description": "FastAPI + React 동시 구동 스크립트",
+  "scripts": {
+    "start": "concurrently \"..\\.venv\\Scripts\\python.exe ..\\main.py\" \"npm run dev --prefix frontend\""
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
